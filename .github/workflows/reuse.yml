@@ -1,0 +1,5 @@
+jobs:
+  my-job:
+    uses: .github/workflows/buils-test-deploy.yml@main
+  with:
+    node-version: '17.x'
